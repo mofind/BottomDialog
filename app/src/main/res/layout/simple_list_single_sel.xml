@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sel_list_singlechoice_left"
+    android:orientation="horizontal" >
+
+    <View
+        android:id="@+id/vSel"
+        android:layout_width="4dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="18dp"
+        android:background="@color/app_theme"
+        android:visibility="visible" />
+
+    <!-- android:background="#fff" -->
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000" />
+
+    <RadioButton
+        android:id="@+id/cb_dlg"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:background="#00000000"
+        android:clickable="false"
+        android:textColor="#fff"
+        android:visibility="invisible" />
+
+</LinearLayout>
